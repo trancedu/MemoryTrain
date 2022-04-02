@@ -17,7 +17,7 @@ OPTIONS = {"packages":["PySimpleGUI","random","re","os"], 'iconfile':'mind.icns'
 
 setup(
     app=APP,
-    name=u"记忆训练助手",
+    name=u"记忆训练助手Mac版",
     data_files=DATA_FILES,
     options={'py2app': OPTIONS},
     setup_requires=['py2app'],
